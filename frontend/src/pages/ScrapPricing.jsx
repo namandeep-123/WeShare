@@ -313,7 +313,6 @@ const ScrapPricing = (props) => {
         ))}
       </div>
 
-      {/* TODO: Add search. */}
       <div className="categories-container">
         {CATEGORIES.map((category, index) =>
           (selectedCategory === "All" || selectedCategory === category.name) &&
