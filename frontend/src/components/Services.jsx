@@ -1,20 +1,20 @@
 import React from "react";
-import "./Card.css";
+import "./Services.css";
 import anime from "animejs";
 import { useEffect } from "react";
 
-const Card = ({ data }) => {
+const Services = ({ data }) => {
   useEffect(() => {
-    cardAnimation();
+    ServicesAnimation();
   });
   function readMore(a, b) {
     let message = `${a} - ${b}`;
     alert(message);
   }
 
-  let cardAnimation = () => {
+  let ServicesAnimation = () => {
     anime({
-      targets: ".Card",
+      targets: ".Services",
       translateX: [-2000, 0],
       direction: "normal",
       easing: "linear",
@@ -24,9 +24,9 @@ const Card = ({ data }) => {
   };
 
   return (
-    <div className="Card">
+    <div className="Services">
       {data.map((item, index) => (
-        <div className="box1" key={index}>
+        <div className="service-box" key={index}>
           <img src={item.img} alt="" />
           <h3>{item.title}</h3>
           <p>{item.content}</p>
@@ -43,4 +43,4 @@ const Card = ({ data }) => {
   );
 };
 
-export default Card;
+export default Services;

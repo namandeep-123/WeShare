@@ -1,10 +1,12 @@
 import React from "react";
 import Heading from "../components/Heading";
 import Catalog from "../components/Catalog";
-import Card from "../components/Card";
+import Card from "../components/Services";
+import Blog from "../components/Blog";
 import Navbar from "../components/Navbar";
 import { data, sellerCatalog, buyerCatalog } from "../utils";
 import Footer from "../components/Footer";
+import Services from "../components/Services";
 const Home = () => {
   return (
     <section>
@@ -101,7 +103,7 @@ const Home = () => {
       </div>
       <div className="mt-8">
         <Heading title="OUR SERVICES" />
-        <Card data={data} />
+        <Services data={data} />
       </div>
       {/* Seller Catalog  */}
       <div className="seller-catalog mt-4">
@@ -113,6 +115,7 @@ const Home = () => {
         <Heading title="BUYER CATALOG" />
         <Catalog data={buyerCatalog} />
       </div>
+      <Blog />
       {/* Footer */}
       <div className="mt-4">
         <Footer />

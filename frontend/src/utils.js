@@ -34,7 +34,7 @@ export const data = [
     img: "/icons/material-social-responsibility.svg",
     title: "Material Recovery Facility",
     content:
-      "Collaborating to provide waste management services to ULB owned Material Recovery Facilities.",
+      "Collaborating to  waste management to ULB owned Material Recovery Facilities.",
     link: "#",
     button: "read now",
   },
@@ -52,8 +52,8 @@ export const sellerCatalog = [
     img: "icons/company.svg",
     title: "Sell Scrap",
     content:
-      "You can sell plastic,paper,rubber,metal,glass at reasonable prices plus get goodies.",
-    link: "#",
+      "You can sell plastic, paper, rubber, metal, glass at reasonable prices plus get goodies.",
+    link: "/scrap-pricing",
     button: "Sell Now",
   },
   {
@@ -61,14 +61,14 @@ export const sellerCatalog = [
     title: "Sell Usable Things",
     content:
       "You can sell usable things like books, bags, shoes,furniture at your own price.",
-    link: "#",
+    link: "/addproduct",
     button: "Sell Now",
   },
   {
     img: "icons/zero-wastee-service.svg",
     title: "Donate Things",
     content: "You can donate usable things to NGO",
-    link: "#",
+    link: "/donate",
     button: "Donate Now",
   },
 ];
@@ -78,7 +78,7 @@ export const buyerCatalog = [
     img: "icons/company.svg",
     title: "Buy Used Items",
     content: "Buy usable things at great prices.",
-    link: "#",
+    link: "/buy",
     button: "Buy Now",
   },
   {

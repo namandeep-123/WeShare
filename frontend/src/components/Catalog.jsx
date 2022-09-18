@@ -9,7 +9,6 @@ const Catalog = ({ data }) => {
   });
   function readMore(a, b) {
     let message = `${a} - ${b}`;
-    alert(message);
   }
 
   let CatalogAnimation = () => {
