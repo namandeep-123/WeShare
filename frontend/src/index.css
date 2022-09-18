@@ -5,7 +5,7 @@
 }
 body {
   color: black;
-  user-select: none;
+  /* user-select: none; */
 }
 
 @tailwind base;
