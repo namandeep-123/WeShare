@@ -3,7 +3,7 @@ export const data = [
     img: "/icons/scrap-collection.svg",
     title: "Sell Scrap ",
     content: "You can sell your waste products at good prices.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
   {
@@ -11,7 +11,7 @@ export const data = [
     title: "Shredding service",
     content:
       "Aiding Businesses in the safe & secure disposal of their confidential documents.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
   {
@@ -19,7 +19,7 @@ export const data = [
     title: "Zero waste services",
     content:
       "Serving the Institutes/Offices/Events in achieving their zero waste goals.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
   {
@@ -27,7 +27,7 @@ export const data = [
     title: "Dismantling service",
     content:
       "Providing holistic approach to implement circular solutions to the scrap disposal.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
   {
@@ -35,7 +35,7 @@ export const data = [
     title: "Material Recovery Facility",
     content:
       "Collaborating to  waste management to ULB owned Material Recovery Facilities.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
   {
@@ -43,7 +43,7 @@ export const data = [
     title: "Donating platform",
     content:
       "You can donate here anything you want to donate in any much qunatity you want",
-    link: "#",
+    link: "/scrap-pricing",
     button: "read now",
   },
 ];
@@ -86,7 +86,7 @@ export const buyerCatalog = [
     title: "Donation",
     content:
       "Serving the Residential Societies in achieving their zero waste goals.",
-    link: "#",
+    link: "/scrap-pricing",
     button: "Buy Now",
   },
 ];

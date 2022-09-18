@@ -9,7 +9,7 @@ const Services = ({ data }) => {
   });
   function readMore(a, b) {
     let message = `${a} - ${b}`;
-    alert(message);
+    // alert(message);
   }
 
   let ServicesAnimation = () => {
